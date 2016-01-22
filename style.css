@@ -1,0 +1,57 @@
+*{
+	font-family: futura;
+}
+#container{
+	width: 970px;
+	min-height: 940px;
+	margin: 0 auto;
+	border: 1px solid black;
+	padding-left: 40px;
+	background-color: lightblue;
+}
+	.error{
+		color: red;
+	}
+	.errors{
+		color: red;
+	}
+	.success{
+		color: green;
+	}
+	#indexTitle{
+		text-align: center;
+	}
+	#loggedInTitle{
+		text-align: center;
+	}
+	#commentForm{
+		overflow: hidden;
+	}
+	.log-out {
+	    float: right;
+	    font-size: 24px;
+	}
+	#messageForm textarea {
+	    height: 100px;
+	    width: 580px;
+	    font-size: 16px;
+	    line-height: 30px;
+	    padding: 10px 20px;
+	}
+	#messagesContainer {
+	    padding: 20px 0 0;
+	}
+	.message {
+	    line-height: 26px;
+	    padding: 0 0 20px;
+	}
+	.comment {
+	    padding: 5px 0 10px 30px;
+	}
+	.comment textarea {
+	    width: 550px;
+	    padding: 10px 20px;
+	}
+	.comment p {
+	    color: green;
+	}
